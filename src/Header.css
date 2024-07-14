@@ -1,0 +1,52 @@
+.header {
+  background-color: #111;
+  color: #fff;
+  padding: 20px 0;
+}
+
+.header .container {
+  max-width: 1170px;
+  margin: auto;
+}
+
+.header .row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.header-col {
+  flex: 1;
+  padding: 0 15px;
+}
+
+.header-col h1 {
+  font-size: 24px;
+  font-weight: 800;
+  color: #1ABC9C;
+}
+
+.header-col nav {
+  text-align: right;
+}
+
+.header-col nav ul {
+  list-style: none;
+}
+
+.header-col nav ul li {
+  display: inline-block;
+  margin-left: 20px;
+}
+
+.header-col nav ul li a {
+  font-size: 16px;
+  color: #bbb;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+.header-col nav ul li a:hover {
+  color: #1ABC9C;
+}

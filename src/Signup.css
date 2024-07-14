@@ -1,0 +1,83 @@
+form {
+  max-width: 400px;
+  margin-top: 4%;
+  margin-left: 38%;
+  margin-bottom: 4%;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  border-radius: 37px;
+  box-shadow: 0 0 50px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+   margin-bottom: 60px;
+    font-size: 24px;
+    font-weight: 800;
+    color: #1ABC9C;
+    text-align: center;
+}
+
+/* Styles for form fields */
+label {
+  display: block;
+
+  margin-bottom: 20px;
+  font-size: 16px;
+  font-weight: 700;
+  color: #1ABC9C;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+  width: calc(100% - 20px);
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ddd;
+  border-radius: 15px;
+}
+
+/* Button styles */
+button {
+  display: block;
+  width: 25%;
+  padding: 7px;
+  background-color: #1ABC9C;
+  color: #fff;
+  border: none;
+  border-radius: 15px;
+  cursor: pointer;
+  font-size: 14px;
+  margin-left: 35%;
+}
+
+button:hover {
+  background-color: #312f2f;
+  color: #1ABC9C;;
+}
+
+/* Styles for the welcome message */
+p {
+  font-size: 28px;
+  font-weight: 750;
+  text-align: center;
+  margin-bottom: 10%;
+  margin-top: 10%;
+
+
+}
+
+.buttonaf {
+  margin-left: 45%;
+  width: 10%;
+  margin-bottom: 11%;
+  background-color: #1ABC9C;
+  color: #fff;
+  border: none;
+  border-radius: 25px;
+  cursor: pointer;
+  font-size: 15px;
+
+}
+
